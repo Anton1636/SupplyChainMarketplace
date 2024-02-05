@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "web3modal": "^1.9.12"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.4.1",
     "autoprefixer": "^10.0.1",
+    "ethers": "^6.10.0",
+    "hardhat": "^2.19.5",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }
